@@ -1,16 +1,4 @@
 "use strict";
-/*
-// Manipulating the text
-console.log(document.querySelector(".message").textContent);
-document.querySelector(".message").textContent = "Correct Number";
-
-document.querySelector(".number").textContent = 13;
-document.querySelector(".score").textContent = 10;
-
-// Manipulating the numbers
-document.querySelector(".guess").value = 13;
-console.log(document.querySelector(".guess").value);
-*/
 
 const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
@@ -97,9 +85,9 @@ document.querySelector(".check").addEventListener("click", function () {
 });
 
 /*
-Coding Challenge #1
+
 Implement a game rest functionality, so that the player can make a new guess!
-Your tasks:
+Tasks:
 1. Select the element with the 'again' class and attach a click event handler
 2. In the handler function, restore initial values of the 'score' and 
 'secretNumber' variables
